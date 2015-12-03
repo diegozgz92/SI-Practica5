@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import javax.crypto.Cipher;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
@@ -15,7 +17,7 @@ public class DigitalSignature1Example {
     //
     // check args and get plaintext
     if (args.length !=1) {
-      System.err.println("Usage: java DigitalSignature1Example text");
+      System.err.println("Usage: java Ejemplos.DigitalSignature1Example text");
       System.exit(1);
     }
     byte[] plainText = args[0].getBytes("UTF8");

@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.security.*;
 import javax.crypto.*;
 //
@@ -8,7 +10,7 @@ public class PrivateExample {
     //
     // check args and get plaintext
     if (args.length !=1) {
-      System.err.println("Usage: java PrivateExample text");
+      System.err.println("Usage: java Ejemplos.PrivateExample text");
       System.exit(1);
     }
     byte[] plainText = args[0].getBytes("UTF8");

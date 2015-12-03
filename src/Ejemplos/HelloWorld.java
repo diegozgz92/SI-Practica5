@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.applet.Applet;
 import java.awt.Graphics;
 

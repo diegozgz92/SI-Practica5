@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.security.*;
 import javax.crypto.*;
 //
@@ -9,7 +11,7 @@ public class DigitalSignature2Example {
     //
     // check args and get plaintext
     if (args.length !=1) {
-      System.err.println("Usage: java DigitalSignature1Example text");
+      System.err.println("Usage: java Ejemplos.DigitalSignature1Example text");
       System.exit(1);
     }
     byte[] plainText = args[0].getBytes("UTF8");
